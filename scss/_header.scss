@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 8rem;
+  background-color: black;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .plataform {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-weight: var(--font-weight-2);
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+    }
+
+    ul {
+      display: flex;
+      margin-left: 1.8rem;
+      gap: 0.8rem;
+
+      li {
+        padding: 0.4rem 0.8rem;
+        border: 0.15rem solid white;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
