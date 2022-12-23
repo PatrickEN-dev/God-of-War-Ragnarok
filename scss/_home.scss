@@ -94,6 +94,38 @@
       }
     }
   }
+  @media (max-width: 1200px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: 30%;
+    height: auto;
+
+    .left {
+      max-width: 64rem;
+      p {
+        font-size: 1.6rem;
+      }
+    }
+    .right {
+      top: 0;
+      max-width: 35.3rem;
+      width: 100%;
+
+      button {
+        height: 19.7rem;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    padding: 0.6rem 0;
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left {
+      text-align: center;
+    }
+  }
 }
 
 .s-hero-list {
